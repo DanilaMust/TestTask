@@ -9,6 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
   headerLink();
   headerBurger();
   popup();
-  slider();
+  slider(); 
 });
-

@@ -7,25 +7,24 @@
                 <div class="forms__names feedback-contacts__form">
                     <div class="forms-names__first">
                         <label class="forms-names__title forms__title" >First Name</label>
-                        <input class="forms-names__first-input forms-input" required placeholder="First Name" tabindex="1" type="text" name="venue__city">
+                        <input class="forms-names__first-input forms-input" minlength="3"  placeholder="First Name"  type="text" name="venue__city" required>
                     </div>
                     <div  class="forms-names__last">
                         <label class="forms-names__last-title forms__title" >Last Name</label>
-                        <input class="forms-names__last-input forms-input" required placeholder="Last Name" tabindex="2" type="text" name="state__city">
+                        <input class="forms-names__last-input forms-input" minlength="3"  placeholder="Last Name" type="text" name="state__city" required>
                     </div>   
                 </div>
                 <div class="forms__email feedback-contacts__form">
                     <label class="forms-email__title forms__title" >Email Address</label>
-                    <input class ="forms-email__input row-input forms-input" required placeholder="Email Address" tabindex="3" type="email" name="email">
+                    <input class ="forms-email__input row-input forms-input"  placeholder="Email Address"  type="email" name="email" required>
                 </div>
                 <div  class="forms__message ">                
                     <label class="forms-message__title forms__title " >Your message</label>
-                    <input class="forms-message__input row-input forms-input " required placeholder="Textarea" tabindex="4" type="text" name="message">
+                    <input class="forms-message__input row-input forms-input " maxlength="30" placeholder="Textarea"  type="text" name="message" required>
                 </div>
+                <button  class="feedback-contacts__btn">SEND</button>
             </form>
-            <div class="feedback-contacts__btn">
-                <button>SEND</button>
-            </div>
         </div>
     </div>
 </section>
+

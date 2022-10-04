@@ -136,6 +136,9 @@
           margin: 0;
         }
       }
+      .swiper-pagination {
+        bottom: 0;
+      }
     }
     .authentication__bottom {
       display: grid;
@@ -170,3 +173,4 @@
     gap: 65px;
   }
 }
+
